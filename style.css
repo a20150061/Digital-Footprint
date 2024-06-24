@@ -1,0 +1,47 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+body{
+  background-color:#a6b2dd ;
+}
+.titulo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #c6cfec;
+  height: 120px;
+  border: 5px solid white ;
+}
+h1 {
+  color: #6e80b4;
+  font-family:'MS PMincho', Arial, sans-serif;
+  font-size: 50px;
+}
+.subtitulo {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  height: 60px;
+}
+.subtitulo p{
+  color: #3e528e;
+  font-family:'Baskerville Old Face';
+  font-size: 35px;
+}
+.contenido {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  background-color: #c6cfec;
+  height: 200px;
+  border: 5px solid white ;
+}
+.contenido img{
+  height: 200px;
+}
+.contenido p{
+  color: #3e528e;
+  font-family:'Baskerville Old Face';
+  font-size: 30px;
+}
